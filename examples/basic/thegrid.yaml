@@ -85,4 +85,4 @@ metadata:
   namespace: default
 type: Opaque
 stringData:
-  apiKey: THEGRID_API_KEY # Replace with your The Grid API key.
+  apiKey: THEGRID_API_KEY # Replace with your The Grid AI API key.

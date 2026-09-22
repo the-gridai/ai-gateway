@@ -1,18 +1,18 @@
 ---
 id: thegrid
-title: Connect The Grid
+title: Connect The Grid AI
 sidebar_position: 5
 ---
 
 import CodeBlock from '@theme/CodeBlock';
 import vars from '../../\_vars.json';
 
-# Connect The Grid
+# Connect The Grid AI
 
-This guide will help you configure Agent Router to work with [The Grid](https://thegrid.ai)'s instruments.
+This guide will help you configure Agent Router to work with [The Grid AI](https://thegrid.ai)'s instruments.
 
-The Grid is an OpenAI-compatible inference API whose model ids are **market instruments** rather than fixed
-models. You request a quality tier — `text-standard`, `code-prime`, `agent-max` — and The Grid acquires
+The Grid AI is an OpenAI-compatible inference API whose model ids are **market instruments** rather than fixed
+models. You request a quality tier — `text-standard`, `code-prime`, `agent-max` — and The Grid AI acquires
 qualifying inference on its market to serve the request. Lab-scoped markets such as `claude-opus-latest` and
 `kimi-latest` are also available when you want to stay within one model family.
 
@@ -23,7 +23,7 @@ actually served the request rather than the instrument you asked for.
 
 Before you begin, you'll need:
 
-- An API key from [The Grid](https://thegrid.ai)
+- An API key from [The Grid AI](https://thegrid.ai)
 - Basic setup completed from the [Basic Usage](../basic-usage.md) guide
 - Basic configuration removed as described in the [Advanced Configuration](./index.md) overview
 
@@ -39,12 +39,12 @@ Ensure you have followed the steps in [Connect Providers](../connect-providers/)
 {`curl -O https://raw.githubusercontent.com/theagentrouter/agent-router/${vars.aigwGitRef}/examples/basic/thegrid.yaml`}
 </CodeBlock>
 
-### 2. Configure The Grid Credentials
+### 2. Configure The Grid AI Credentials
 
-Edit the `thegrid.yaml` file to replace The Grid placeholder value:
+Edit the `thegrid.yaml` file to replace The Grid AI placeholder value:
 
 - Find the section containing `THEGRID_API_KEY`
-- Replace it with your actual The Grid API key
+- Replace it with your actual The Grid AI API key
 
 :::caution Security Note
 Make sure to keep your API key secure and never commit it to version control.
