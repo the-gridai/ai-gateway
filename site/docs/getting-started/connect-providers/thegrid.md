@@ -12,7 +12,7 @@ import vars from '../../\_vars.json';
 This guide will help you configure Agent Router to work with [The Grid AI](https://thegrid.ai)'s instruments.
 
 The Grid AI is an OpenAI-compatible inference API whose model ids are **market instruments** rather than fixed
-models. You request a quality tier — `text-standard`, `code-prime`, `agent-max` — and The Grid AI acquires
+models. You request a quality tier such as `text-standard`, `code-prime` or `agent-max`, and The Grid AI acquires
 qualifying inference on its market to serve the request. Lab-scoped markets such as `claude-opus-latest` and
 `kimi-latest` are also available when you want to stay within one model family.
 
